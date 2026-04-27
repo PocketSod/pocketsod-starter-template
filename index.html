@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Business Name | City</title>
-  <meta name="description" content="Professional services in City. Call for a free quote.">
+  <meta name="description" content="Professional local services in your area. Call today for a free quote.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
 <header>
@@ -17,13 +19,15 @@
   </div>
 </header>
 
+<!-- HERO -->
 <section class="hero container fade-in delay-1">
   <h2>Professional [Service] in [City]</h2>
   <p>Fast, affordable, and reliable service you can trust.</p>
   <a href="#contact" class="btn">Request a Quote</a>
 </section>
 
-<section class="services container fade-in delay-2">
+<!-- SERVICES -->
+<section class="container fade-in delay-2">
   <h2>Our Services</h2>
   <div class="grid">
     <div class="card">Service 1</div>
@@ -32,7 +36,8 @@
   </div>
 </section>
 
-<section class="about container fade-in delay-3">
+<!-- ABOUT -->
+<section class="container fade-in delay-2">
   <h2>Why Choose Us</h2>
   <div class="grid">
     <div class="card">Fast Service</div>
@@ -41,8 +46,48 @@
   </div>
 </section>
 
-<section id="contact" class="container fade-in">
+<!-- TESTIMONIALS -->
+<section class="container fade-in delay-2">
+  <h2>What Our Customers Say</h2>
+
+  <div class="grid">
+    <div class="card">
+      <p>★★★★★</p>
+      <p>"Amazing service. Highly recommend."</p>
+      <strong>- John D.</strong>
+    </div>
+
+    <div class="card">
+      <p>★★★★★</p>
+      <p>"Fast and professional work."</p>
+      <strong>- Sarah M.</strong>
+    </div>
+
+    <div class="card">
+      <p>★★★★★</p>
+      <p>"Great results, very happy."</p>
+      <strong>- Mike R.</strong>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section class="container fade-in delay-3">
+  <h2>Before & After</h2>
+
+  <div class="before-after">
+    <img src="images/after.jpg" alt="After">
+    <div class="overlay">
+      <img src="images/before.jpg" alt="Before">
+    </div>
+    <input type="range" min="0" max="100" value="50" class="slider">
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container fade-in delay-3">
   <h2>Get a Free Quote</h2>
+
   <form action="https://formspree.io/f/YOUR-ID" method="POST">
     <input type="text" name="name" placeholder="Name" required>
     <input type="email" name="email" placeholder="Email" required>
@@ -55,5 +100,9 @@
   <p>© 2026 Business Name</p>
 </footer>
 
+<!-- MOBILE CALL BUTTON -->
+<a href="tel:1234567890" class="call-btn">Call Now</a>
+
+<script src="js/script.js"></script>
 </body>
 </html>
