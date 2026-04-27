@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Business Name | City</title>
   <meta name="description" content="Professional services in City. Call for a free quote.">
@@ -9,18 +10,18 @@
 </head>
 <body>
 
-<header class="container">
+<header>
   <h1>Business Name</h1>
   <a href="#contact" class="btn">Get a Quote</a>
 </header>
 
-<section class="hero container">
+<section class="hero container fade-in">
   <h2>Professional [Service] in [City]</h2>
   <p>Fast, affordable, and reliable service you can trust.</p>
   <a href="#contact" class="btn">Request a Quote</a>
 </section>
 
-<section class="services container">
+<section class="services container fade-in">
   <h2>Our Services</h2>
   <div class="grid">
     <div class="card">Service 1</div>
@@ -29,22 +30,26 @@
   </div>
 </section>
 
-<section class="about container">
-  <h2>About Us</h2>
-  <p>We provide high-quality service with a focus on customer satisfaction.</p>
+<section class="about container fade-in">
+  <h2>Why Choose Us</h2>
+  <div class="grid">
+    <div class="card">Fast Service</div>
+    <div class="card">Affordable Pricing</div>
+    <div class="card">Trusted Locally</div>
+  </div>
 </section>
 
-<section id="contact" class="contact container">
-  <h2>Contact Us</h2>
+<section id="contact" class="container fade-in">
+  <h2>Get a Free Quote</h2>
   <form action="https://formspree.io/f/YOUR-ID" method="POST">
     <input type="text" name="name" placeholder="Name" required>
     <input type="email" name="email" placeholder="Email" required>
     <textarea name="message" placeholder="Message"></textarea>
-    <button type="submit">Send</button>
+    <button class="btn" type="submit">Send Message</button>
   </form>
 </section>
 
-<footer class="container">
+<footer>
   <p>© 2026 Business Name</p>
 </footer>
 
